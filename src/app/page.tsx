@@ -1,16 +1,17 @@
 "use client";
 
-import { FormButton } from "@/components/button";
+import { Button, FormButton } from "@/components/button";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { FaSearch } from "react-icons/fa";
+import { FaBath, FaBed, FaSearch } from "react-icons/fa";
 import {
   FaHouseSignal,
   FaAngleDown,
   FaRegCircleUser,
   FaCircleUser,
 } from "react-icons/fa6";
+import { TbRulerMeasure } from "react-icons/tb";
 
 export default function Home() {
   const [isProfileOpen, setIsProfileOpen] = useState<boolean>(false);
@@ -122,7 +123,253 @@ export default function Home() {
             </div>
           </form>
         </div>
+
+        <div className="container mx-auto mt-6 px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-4">
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+            <Link href={"/"} className="rounded-2xl shadow-md hover:shadow-xl">
+              <div className="h-52 rounded-t-2xl">
+                <Image
+                  src={"/Images/property-1.jpg"}
+                  height={197}
+                  width={296}
+                  alt=""
+                  className="rounded-t-2xl w-full object-cover"
+                />
+              </div>
+              <div className="py-4 px-2">
+                <h3 className="text-gray-900 font-medium">
+                  3 Bedroom Bungalow
+                </h3>
+                <p className="text-sm text-gray-600">Abuja, Garki (Area 7)</p>
+
+                <h4 className="text-sm font-medium">N200,000/yr</h4>
+              </div>
+            </Link>
+          </div>
+
+          <div className="flex items-center mt-8 gap-3 justify-center flex-col">
+            <p className="font-medium text-lg">Continue Exploring</p>
+            <Button>Show More</Button>
+          </div>
+        </div>
       </main>
+
+      <footer className="mt-4">
+        <div className="container mx-auto px-4">
+          <p className="text-base text-center">
+            Made with love by group 24. ©2024 ❤️
+          </p>
+        </div>
+      </footer>
     </>
   );
 }
